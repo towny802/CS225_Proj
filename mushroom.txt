@@ -1,2 +1,7 @@
 asfdasdfFile file file file MUSHROOM MUSHROOM
+<<<<<<< HEAD
 snAAaAAyyyyyyyyyaAAaAAKE
+=======
+snAAaAAxxxxxaAAaAAKE
+[enter the conflict(!)]
+>>>>>>> 651fd02ced5b550ef3001de74090d441e7cdb4da
