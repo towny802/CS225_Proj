@@ -1,0 +1,4 @@
+Zach Bechhoefer and Noah Robert Mintz
+
+We're trudging along, accumulating documentation.
+I'm not sure what to do about Products of types, since a Row type will have to be specific to a db instead of to all db. This will definitely require a generator.
