@@ -1,0 +1,20 @@
+The README
+
+Project by Zachary Bechhoefer and Noah Mintz Roberts
+
+This program accesses a MySQL database by the listed credentials, and operates on a table named 'dogs' with columns string:name and int:age. The print_query function prints out the rows of this table, the query_step_pair is for a table with a pair of columns, like dogs, and returns the query-rows in an abstract type.
+
+OCaml C does some crazy things like implicit struct declarations, only allowing the creation of five function-local type instances at a time, and some opaque of memory-safety work. I didn't even know implicit declarations were something other than an error message term. Whack.
+
+Writing this program was a huge learning experience on its own though. I think the new Prof Jason Hibbeler actually talked about functional languages as a security solution for embedded systems in his candidate lecture, and now I see why. C is much more loosely typed than I thought, and the need for memory management to ensure memory safety lends itself well to functional languages.
+
+That being said, OCaml C requiremens abstract types, implicit declarations, and other scary C things. While maybe enticing to C devs looking for more reliability, this is very inconvenient for a non-inveterate C programmer. OCaml's alternative to this problem is using an extensive system-calls type system, which would actually lock OCaml off of embedded systems using diverse hardwares.
+
+I was talking to my the day that I wrote this, and he was talking about wanting a Test and Release System for his embedded system. I thought, well what a great opportunity for functional programming. Software written in a functional language should, in theory, expose bugs more reliably. Yet, OCaml, being strongly typed, makes using 'void*' and other variably lengthed raw datum very frustrating.
+
+There is a way forward, but perhaps not with OCaml. It looks like OCaml is and will remain best as a tool for writing all-around safe languages like Erlang, which has more promise for embedded applications.
+
+I'm sorry if the unimpressive outcomes are a disappointment, they do disappoint me. Rest assured though, while little was accomplished in the way of a shiny final project, much was learned.
+
+Thanks for your patience!
+Zach
